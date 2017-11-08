@@ -1,0 +1,11 @@
+{% extends "base.html" %}
+
+{% block head_title %}Restaurants | {{ block.super }}{% endblock head_title %}
+
+{% block content %}
+<ul>
+{% for obj in queryset %}
+	<li>{{ obj.name }} {{ obj.location }} {{ obj.category }} {{ obj.timestamp }} {{ obj.updated }}</li>
+{% endfor %}
+</ul>
+{% endblock content %}

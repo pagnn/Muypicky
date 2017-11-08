@@ -1,14 +1,15 @@
+<!DOCTYPE html>
 <html>
-	<head>
-		
-	</head>
-	<body>
-		<h1>Hello World</h1>
-		<p>This is coming through.</p>
-		<p>
-			{% if bool_item %}
-			Random Number is：{{ num }}
-			{% endif %}
-		</p>
-	</body>
+<head>
+	<title>{% block head_title %}MuyPicky.com{% endblock head_title %}</title>
+	{% include 'snippets/css.html' %}
+</head>
+<body>
+	{% include 'snippets/nav.html' %}
+	<div class='container'>
+		{% block content %}
+		{% endblock content %}
+	</div>
+	{% include 'snippets/js.html' %}	
+</body>
 </html>
