@@ -4,6 +4,22 @@
 		"selected_items":
 		[
 			[
+				"get",
+				"get_context_data"
+			],
+			[
+				"R",
+				"RestaurantDetailView"
+			],
+			[
+				"re",
+				"restaurants_listview"
+			],
+			[
+				"auto",
+				"auto_now_add"
+			],
+			[
 				"random",
 				"randomList2"
 			],
@@ -72,10 +88,6 @@
 				"activeDrugs"
 			],
 			[
-				"re",
-				"resistances"
-			],
-			[
 				"mut",
 				"mutProb"
 			],
@@ -114,10 +126,6 @@
 			[
 				"simple",
 				"SimpleVirus"
-			],
-			[
-				"get",
-				"getTotalPop"
 			],
 			[
 				"cur",
@@ -282,10 +290,6 @@
 			[
 				"de",
 				"deltaX"
-			],
-			[
-				"R",
-				"RectangularRoom"
 			],
 			[
 				"del",
@@ -510,15 +514,74 @@
 			[
 				"D",
 				"DTImplicit"
-			],
-			[
-				"less",
-				"less10"
 			]
 		]
 	},
 	"buffers":
 	[
+		{
+			"file": "src/muypicky/urls.py",
+			"settings":
+			{
+				"buffer_size": 1250,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "src/restaurants/views.py",
+			"settings":
+			{
+				"buffer_size": 1085,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "src/restaurants/templates/restaurants/restaurantlocation_detail.html",
+			"settings":
+			{
+				"buffer_size": 348,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "src/templates/base.html",
+			"settings":
+			{
+				"buffer_size": 322,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "src/restaurants/models.py",
+			"settings":
+			{
+				"buffer_size": 407,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "src/restaurants/admin.py",
+			"settings":
+			{
+				"buffer_size": 142,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "src/templates/contact.html",
+			"settings":
+			{
+				"buffer_size": 199,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -571,14 +634,40 @@
 		"side_bar_visible": false,
 		"status_bar_visible": false
 	},
+	"expanded_folders":
+	[
+		"/C/Dev/trydjango1-11",
+		"/C/Dev/trydjango1-11/src",
+		"/C/Dev/trydjango1-11/src/muypicky",
+		"/C/Dev/trydjango1-11/src/muypicky/settings",
+		"/C/Dev/trydjango1-11/src/muypicky/settings/__pycache__",
+		"/C/Dev/trydjango1-11/src/restaurants",
+		"/C/Dev/trydjango1-11/src/restaurants/templates",
+		"/C/Dev/trydjango1-11/src/restaurants/templates/restaurants",
+		"/C/Dev/trydjango1-11/src/templates",
+		"/C/Dev/trydjango1-11/src/templates/snippets"
+	],
 	"file_history":
 	[
+		"/C/Dev/trydjango1-11/src/restaurants/templates/restaurants/restaurantlocation_list.html",
+		"/C/Coding/python/demo.py",
+		"/C/Dev/trydjango1-11/src/templates/about.html",
+		"/C/Dev/trydjango1-11/src/templates/home.html",
+		"/C/Dev/trydjango1-11/src/templates/snippets/js.html",
+		"/C/Dev/trydjango1-11/src/templates/snippets/css.html",
+		"/C/Dev/trydjango1-11/src/templates/snippets/sidebar.html",
+		"/C/Dev/trydjango1-11/src/templates/snippets/nav.html",
+		"/C/Dev/trydjango1-11/src/muypicky/wsgi.py",
+		"/C/Dev/trydjango1-11/src/muypicky/settings/local.py",
+		"/C/Dev/trydjango1-11/src/muypicky/settings/production.py",
+		"/C/Dev/trydjango1-11/src/manage.py",
+		"/C/Dev/trydjango1-11/src/muypicky/settings/__init__.py",
+		"/C/Dev/trydjango1-11/src/muypicky/settings/__base__.py",
 		"/C/Dev/trydjango1-11/src/muypicky/settings/__pycache__/local",
 		"/C/Coding/python/test.py",
 		"/C/Coding/python/exercise.py",
 		"/C/Users/Sylvia/AppData/Roaming/Sublime Text 3/Packages/User/Preferences.sublime-settings",
 		"/C/Users/Sylvia/AppData/Roaming/Sublime Text 3/Packages/Default/Preferences.sublime-settings",
-		"/C/Coding/python/demo.py",
 		"/C/Coding/web/Abstract/abstract.html",
 		"/C/Users/Sylvia/Downloads/ProblemSet2/ps2.py",
 		"/C/Coding/python/6002x/Week2/RobotSimulation/robot.py",
@@ -687,20 +776,7 @@
 		"/C/Coding/blog/code/blog/index.html",
 		"/C/Users/Sylvia/Downloads/34/20/code/base.js",
 		"/C/Users/Sylvia/Downloads/34/20/code/tool.js",
-		"/C/Coding/blog/basic.js",
-		"/C/Users/Sylvia/Downloads/34/19/code/demo.js",
-		"/C/Users/Sylvia/Downloads/34/19/code/tool.js",
-		"/C/Coding/web/demo.py",
-		"/C/Coding/web/demo.js",
-		"/C/Users/Sylvia/Downloads/34/9/code/base.js",
-		"/C/Users/Sylvia/Downloads/34/9/code/blog/index.js",
-		"/C/Users/Sylvia/Downloads/34/9/code/tool.js",
-		"/C/Coding/blog/test.html",
-		"/C/Coding/web/blog/index.css",
-		"/C/Coding/web/blog/base.js",
-		"/C/Coding/web/blog/index.js",
-		"/C/Coding/web/blog/index.html",
-		"/C/Coding/web/test.py"
+		"/C/Coding/blog/basic.js"
 	],
 	"find":
 	{
@@ -735,8 +811,206 @@
 	"groups":
 	[
 		{
+			"selected": 6,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "src/muypicky/urls.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1250,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1060,
+								1060
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 450.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "src/restaurants/views.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1085,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1081,
+								1081
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 630.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "src/restaurants/templates/restaurants/restaurantlocation_detail.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 348,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								325,
+								325
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "src/templates/base.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 322,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								270,
+								270
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "src/restaurants/models.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 407,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								368,
+								368
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "src/restaurants/admin.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 142,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								141,
+								141
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 6,
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "src/templates/contact.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 199,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								174,
+								174
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
 			]
 		}
 	],
@@ -773,7 +1047,7 @@
 	"menu_visible": true,
 	"output.exec":
 	{
-		"height": 95.0
+		"height": 304.0
 	},
 	"output.find_results":
 	{
