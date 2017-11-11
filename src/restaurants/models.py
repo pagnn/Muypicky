@@ -19,7 +19,7 @@ class RestaurantLocation(models.Model):
 	def __str__(self):
 		return self.name
 	def get_absolute_url(self):
-		return reverse('restaurants:detail',kwargs={'slug':self.slug})
+		return reverse('restaurants:update',kwargs={'slug':self.slug})
 	@property
 	def title(self):
 		return self.name

@@ -4,7 +4,7 @@
 
 {% block content %}
 <div class='container'>
-<h1>Items List:</h1>
+<h1>My Items || <a href='{% url "menus:create" %}'>Add One</a></h1>
 <ul>
 {% for obj in object_list %}
 	<li><a href="{{ obj.get_absolute_url }}">{{ obj.name }}</a><br>
@@ -26,6 +26,8 @@
 			</ul>
 		{% endif %}		
 	</li>
+	{% empty %}
+	<li><a href='{% url "menus:create" %}'>Add One</a></li>
 {% endfor %}
 </ul>
 </div>

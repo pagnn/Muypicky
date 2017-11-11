@@ -19,14 +19,6 @@ from django.views.generic import TemplateView
 
 from django.contrib.auth.views import LoginView,PasswordResetView
 
-from restaurants.views import (
-	restaurants_listview,
-	RestaurantListView,
-	RestaurantDetailView,
-    restaurant_createview,
-    RestaurantCreateView
-	)
-
 
 urlpatterns = [
     url(r'^admin/', admin.site.urls),

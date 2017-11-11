@@ -764,7 +764,7 @@
 	],
 	"find":
 	{
-		"height": 71.0
+		"height": 46.0
 	},
 	"find_in_files":
 	{
@@ -843,8 +843,8 @@
 						"selection":
 						[
 							[
-								170,
-								170
+								269,
+								269
 							]
 						],
 						"settings":
@@ -949,7 +949,7 @@
 	],
 	"incremental_find":
 	{
-		"height": 53.0
+		"height": 46.0
 	},
 	"input":
 	{
@@ -990,7 +990,7 @@
 	"project": "muypicky.sublime-project",
 	"replace":
 	{
-		"height": 100.0
+		"height": 86.0
 	},
 	"save_all_on_build": true,
 	"select_file":

@@ -15,7 +15,7 @@ class Item(models.Model):
 	timestamp =models.DateTimeField(auto_now_add=True)
 	updated = models.DateTimeField(auto_now=True)
 	def get_absolute_url(self):
-		return reverse('menus:detail',kwargs={'pk':self.pk})
+		return reverse('menus:update',kwargs={'pk':self.pk})
 	class Meta:
 		ordering = ['-updated','-timestamp']
 
