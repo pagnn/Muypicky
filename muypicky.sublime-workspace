@@ -4,20 +4,96 @@
 		"selected_items":
 		[
 			[
+				"pass",
+				"password2"
+			],
+			[
+				"R",
+				"RegisterForm"
+			],
+			[
+				"C",
+				"CreateView"
+			],
+			[
+				"get",
+				"get_user_model"
+			],
+			[
+				"object",
+				"object_list"
+			],
+			[
+				"is",
+				"is_following_user_ids"
+			],
+			[
+				"u",
+				"username_to_toggle"
+			],
+			[
+				"Pro",
+				"ProfileManager"
+			],
+			[
+				"uer",
+				"username"
+			],
+			[
+				"user",
+				"user_to_toggle"
+			],
+			[
+				"profile",
+				"profile_"
+			],
+			[
+				"us",
+				"user_to_toggle"
+			],
+			[
+				"de",
+				"default_user_profile"
+			],
+			[
+				"fo",
+				"followers"
+			],
+			[
+				"P",
+				"Profile"
+			],
+			[
+				"re",
+				"request"
+			],
+			[
+				"po",
+				"post_save_user_reveiver"
+			],
+			[
+				"g",
+				"get_context_data"
+			],
+			[
+				"back",
+				"background-color"
+			],
+			[
+				"margin",
+				"margin-right"
+			],
+			[
+				"I",
+				"ItemCreateView"
+			],
+			[
 				"form",
 				"form_valid"
 			],
 			[
 				"Item",
 				"ItemCreateView"
-			],
-			[
-				"get",
-				"get_context_data"
-			],
-			[
-				"R",
-				"RestaurantCreateView"
 			],
 			[
 				"login",
@@ -42,10 +118,6 @@
 			[
 				"Po",
 				"POST"
-			],
-			[
-				"re",
-				"request"
 			],
 			[
 				"ran",
@@ -124,10 +196,6 @@
 				"NoChildException"
 			],
 			[
-				"is",
-				"isResistantTo"
-			],
-			[
 				"ac",
 				"activeDrugs"
 			],
@@ -154,14 +222,6 @@
 			[
 				"pop",
 				"popViruses"
-			],
-			[
-				"po",
-				"popVirusestemp"
-			],
-			[
-				"P",
-				"Patient"
 			],
 			[
 				"S",
@@ -332,10 +392,6 @@
 				"robot_type"
 			],
 			[
-				"de",
-				"deltaX"
-			],
-			[
 				"del",
 				"deltaY"
 			],
@@ -458,108 +514,44 @@
 			[
 				"at",
 				"atMe"
-			],
-			[
-				"names",
-				"names_to_nodes"
-			],
-			[
-				"name",
-				"names_to_nodes"
-			],
-			[
-				"node",
-				"names_to_nodes"
-			],
-			[
-				"ed",
-				"edX"
-			],
-			[
-				"m",
-				"myCourses"
-			],
-			[
-				"course",
-				"courseName"
-			],
-			[
-				"reverse",
-				"reverseString"
-			],
-			[
-				"a",
-				"aStr"
-			],
-			[
-				"merge",
-				"mergeSort"
-			],
-			[
-				"b",
-				"bSearch"
-			],
-			[
-				"letter",
-				"lettersGuessed"
-			],
-			[
-				"input",
-				"input_string"
-			],
-			[
-				"e",
-				"evaluate"
-			],
-			[
-				"trigger",
-				"triggerlist"
 			]
 		]
 	},
 	"buffers":
 	[
 		{
-			"file": "src/muypicky/urls.py",
+			"file": "src/profiles/views.py",
 			"settings":
 			{
-				"buffer_size": 1648,
+				"buffer_size": 1643,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "src/menus/templates/menus/item_list.html",
+			"file": "src/profiles/forms.py",
 			"settings":
 			{
-				"buffer_size": 626,
+				"buffer_size": 1287,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "src/menus/views.py",
+			"file": "src/templates/registration/register.html",
 			"settings":
 			{
-				"buffer_size": 1208,
+				"buffer_size": 465,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "src/menus/forms.py",
+			"file": "src/profiles/models.py",
 			"settings":
 			{
-				"buffer_size": 197,
+				"buffer_size": 1369,
 				"encoding": "UTF-8",
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "src/restaurants/forms.py",
-			"settings":
-			{
-				"buffer_size": 1001,
 				"line_ending": "Windows"
 			}
 		}
@@ -620,46 +612,59 @@
 		"/C/Dev/trydjango1-11",
 		"/C/Dev/trydjango1-11/src",
 		"/C/Dev/trydjango1-11/src/menus",
-		"/C/Dev/trydjango1-11/src/menus/templates",
-		"/C/Dev/trydjango1-11/src/menus/templates/menus",
 		"/C/Dev/trydjango1-11/src/muypicky",
 		"/C/Dev/trydjango1-11/src/muypicky/settings",
 		"/C/Dev/trydjango1-11/src/muypicky/settings/__pycache__",
+		"/C/Dev/trydjango1-11/src/profiles",
 		"/C/Dev/trydjango1-11/src/restaurants",
-		"/C/Dev/trydjango1-11/src/restaurants/templates",
-		"/C/Dev/trydjango1-11/src/restaurants/templates/restaurants",
 		"/C/Dev/trydjango1-11/src/templates",
-		"/C/Dev/trydjango1-11/src/templates/registration"
+		"/C/Dev/trydjango1-11/src/templates/registration",
+		"/C/Dev/trydjango1-11/src/templates/snippets"
 	],
 	"file_history":
 	[
-		"/C/Dev/trydjango1-11/src/menus/admin.py",
-		"/C/Dev/trydjango1-11/src/restaurants/views.py",
-		"/C/Dev/trydjango1-11/src/templates/form.html",
-		"/C/Dev/trydjango1-11/src/menus/templates/menus/item_detail.html",
+		"/C/Dev/trydjango1-11/src/menus/views.py",
+		"/C/Dev/trydjango1-11/src/muypicky/urls.py",
+		"/C/Dev/trydjango1-11/src/templates/registration/register.html",
+		"/C/Dev/trydjango1-11/src/templates/registration/login.html",
+		"/C/Dev/trydjango1-11/src/profiles/templates/profiles/register.html",
+		"/C/Dev/trydjango1-11/src/profiles/models.py",
+		"/C/Dev/trydjango1-11/src/profiles/templates/profiles/user.html",
+		"/C/Dev/trydjango1-11/src/profiles/templates/profiles/snippets/follow_snippet.html",
+		"/C/Dev/trydjango1-11/src/profiles/views.py",
+		"/C/Dev/trydjango1-11/src/menus/templates/menus/home-feed.html",
+		"/C/Dev/trydjango1-11/src/profiles/urls.py",
+		"/C/Dev/trydjango1-11/src/profiles/admin.py",
+		"/C/Dev/trydjango1-11/src/restaurants/models.py",
 		"/C/Dev/trydjango1-11/src/menus/models.py",
+		"/C/Dev/trydjango1-11/src/muypicky/settings/__base__.py",
+		"/C/Dev/trydjango1-11/src/menus/templates/menus/item_list.html",
+		"/C/Dev/trydjango1-11/src/menus/templates/menus/item_detailview.html",
+		"/C/Dev/trydjango1-11/src/menus/urls.py",
+		"/C/Dev/trydjango1-11/src/menus/templates/menus/item_detail.html",
+		"/C/Dev/trydjango1-11/src/templates/snippets/snippet_form.html",
+		"/C/Dev/trydjango1-11/src/restaurants/views.py",
+		"/C/Dev/trydjango1-11/src/restaurants/templates/restaurants/restaurant_detailview.html",
+		"/C/Dev/trydjango1-11/src/restaurants/templates/restaurants/restaurantlocation_list.html",
+		"/C/Dev/trydjango1-11/src/restaurants/urls.py",
+		"/C/Dev/trydjango1-11/src/templates/home.html",
+		"/C/Dev/trydjango1-11/src/templates/snippets/nav.html",
+		"/C/Dev/trydjango1-11/src/templates/form.html",
+		"/C/Dev/trydjango1-11/src/restaurants/forms.py",
+		"/C/Dev/trydjango1-11/src/restaurants/templates/restaurants/restaurantlocation_detail.html",
+		"/C/Dev/trydjango1-11/src/menus/forms.py",
+		"/C/Dev/trydjango1-11/src/menus/admin.py",
 		"/C/Dev/trydjango1-11/src/restaurants/templates/restaurants/form.html",
 		"/C/Dev/trydjango1-11/src/menus/templates/menus/form.html",
-		"/C/Dev/trydjango1-11/src/menus/views.py",
-		"/C/Dev/trydjango1-11/src/menus/urls.py",
 		"/C/Dev/trydjango1-11/src/menus/templates/items_list.py",
-		"/C/Dev/trydjango1-11/src/restaurants/models.py",
-		"/C/Dev/trydjango1-11/src/restaurants/templates/restaurants/restaurantlocation_list.html",
-		"/C/Dev/trydjango1-11/src/templates/snippets/nav.html",
-		"/C/Dev/trydjango1-11/src/restaurants/urls.py",
-		"/C/Dev/trydjango1-11/src/muypicky/settings/__base__.py",
-		"/C/Dev/trydjango1-11/src/templates/registration/login.html",
 		"/C/Dev/trydjango1-11/src/templates/registration/password_reset_form.html",
 		"/C/Dev/trydjango1-11/src/restaurants/utils.py",
 		"/C/Dev/trydjango1-11/src/restaurants/validators.py",
-		"/C/Dev/trydjango1-11/src/restaurants/forms.py",
 		"/C/Dev/trydjango1-11/src/templates/base.html",
-		"/C/Dev/trydjango1-11/src/restaurants/templates/restaurants/restaurantlocation_detail.html",
 		"/C/Dev/trydjango1-11/src/restaurants/admin.py",
 		"/C/Dev/trydjango1-11/src/templates/contact.html",
 		"/C/Coding/python/demo.py",
 		"/C/Dev/trydjango1-11/src/templates/about.html",
-		"/C/Dev/trydjango1-11/src/templates/home.html",
 		"/C/Dev/trydjango1-11/src/templates/snippets/js.html",
 		"/C/Dev/trydjango1-11/src/templates/snippets/css.html",
 		"/C/Dev/trydjango1-11/src/templates/snippets/sidebar.html",
@@ -745,32 +750,18 @@
 		"/C/Users/Sylvia/version-control/create-your-own-adventure/readme",
 		"/C/Users/Sylvia/game/newGame/phaser.min.js",
 		"/C/Users/Sylvia/game/newGame/index.js",
-		"/C/Users/Sylvia/game/newGame/index.html",
-		"/C/Coding/blog/base.js",
-		"/C/Coding/blog/tool.js",
-		"/C/Users/Sylvia/version-control/recipes/cake-recipe.txt",
-		"/C/Users/Sylvia/version-control/recipes/chili-recipe.txt",
-		"/C/Users/Sylvia/version-control/recipes/lemone-recipe.txt",
-		"/C/Users/Sylvia/.ssh/id_rsa.pub",
-		"/C/Users/Sylvia/version-control/asteroids/game.js",
-		"/C/Users/Sylvia/version-control/reflections/lesson_2_reflection_prompts.txt",
-		"/C/Users/Sylvia/version-control/reflections/lesson_1_reflections.txt",
-		"/C/Users/Sylvia/version-control/reflections/lesson_1_reflection_prompts.txt",
-		"/C/Users/Sylvia/version-control/reflections/subl",
-		"/C/Coding/web/test/js..html",
-		"/C/Coding/web/test/js.css",
-		"/C/Coding/web/test/js.js",
-		"/C/Coding/web/test/tool.js"
+		"/C/Users/Sylvia/game/newGame/index.html"
 	],
 	"find":
 	{
-		"height": 46.0
+		"height": 74.0
 	},
 	"find_in_files":
 	{
-		"height": 189.0,
+		"height": 195.0,
 		"where_history":
 		[
+			"C:\\Dev\\trydjango1-11\\src",
 			""
 		]
 	},
@@ -779,6 +770,8 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"redirect",
+			"/>\n",
 			"items"
 		],
 		"highlight": true,
@@ -797,24 +790,53 @@
 	"groups":
 	[
 		{
-			"selected": 1,
+			"selected": 3,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "src/muypicky/urls.py",
+					"file": "src/profiles/views.py",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1648,
+						"buffer_size": 1643,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1641,
-								1641
+								571,
+								571
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 129.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "src/profiles/forms.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1287,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								485,
+								485
 							]
 						],
 						"settings":
@@ -824,27 +846,27 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 919.0,
+						"translation.y": 903.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 2,
 					"type": "text"
 				},
 				{
-					"buffer": 1,
-					"file": "src/menus/templates/menus/item_list.html",
+					"buffer": 2,
+					"file": "src/templates/registration/register.html",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 626,
+						"buffer_size": 465,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								269,
-								269
+								247,
+								247
 							]
 						],
 						"settings":
@@ -852,36 +874,7 @@
 							"syntax": "Packages/HTML/HTML.sublime-syntax"
 						},
 						"translation.x": 0.0,
-						"translation.y": 204.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "src/menus/views.py",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1208,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								583,
-								583
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Python/Python.sublime-syntax",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 306.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 1,
@@ -889,47 +882,19 @@
 				},
 				{
 					"buffer": 3,
-					"file": "src/menus/forms.py",
+					"file": "src/profiles/models.py",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 197,
+						"buffer_size": 1369,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								106,
-								106
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Python/Python.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 3,
-					"type": "text"
-				},
-				{
-					"buffer": 4,
-					"file": "src/restaurants/forms.py",
-					"semi_transient": true,
-					"settings":
-					{
-						"buffer_size": 1001,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								482,
-								467
+								963,
+								963
 							]
 						],
 						"settings":
@@ -938,10 +903,10 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 306.0,
+						"translation.y": 516.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 4,
+					"stack_index": 0,
 					"type": "text"
 				}
 			]
@@ -949,11 +914,11 @@
 	],
 	"incremental_find":
 	{
-		"height": 46.0
+		"height": 55.0
 	},
 	"input":
 	{
-		"height": 71.0
+		"height": 73.0
 	},
 	"layout":
 	{
@@ -990,7 +955,7 @@
 	"project": "muypicky.sublime-project",
 	"replace":
 	{
-		"height": 86.0
+		"height": 104.0
 	},
 	"save_all_on_build": true,
 	"select_file":

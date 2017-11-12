@@ -22,4 +22,6 @@ class Item(models.Model):
 	def get_contents(self):
 		return self.contents.split(",")
 	def get_excludes(self):
-		return self.excludes.split(",")	
+		return self.excludes.split(",")
+	def __str__(self):
+		return self.name

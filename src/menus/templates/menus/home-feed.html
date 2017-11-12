@@ -1,0 +1,27 @@
+{% extends "base.html" %}
+{% block head_title %}Welcome || {{ block.super}}{% endblock head_title%}
+{% block content %}
+<h1>What I am Following</h1>
+{% for obj in object_list %}
+<div class='row'>
+	<div class='col-sm-6 text-center col-sm-offset-3'>
+		<div class='thumbnail'>
+			<h3><a href='{% url "profiles:detail" username=obj.user.username %}'>{{ obj.user.username }}</a></h3>
+			<h4>{{ obj.name }}</h4>
+			<p>{{ obj.restaurant.title }} | {{ obj.restaurant.location}} | {{ obj.restaurant.category }}</p>
+			<p>
+				<ul>
+					<li>
+						{% for ing in obj.get_contents %}
+							<a href='{% url "profiles:detail" username=obj.user.username %}'>{{ ing }}</a>
+						{% endfor %}
+					</li>
+				</ul>
+			</p>
+		</div>
+	</div>
+</div>
+
+
+{% endfor %}
+{% endblock content %}
