@@ -11,25 +11,27 @@
 {% if location %}
 <ul>
 {% for rest in location %}
-	<div class='row'>
+<div class='row'>
 	<div class='col-sm-12'>
-		<div class='thumbnail'>
-		<h4>{{ rest.name }}</h4> 
-		<p><a href='{{ request.path }}?q={{ rest.location }}'>{{ rest.location }}</a> | <a href='{{ request.path }}?q={{ rest.category }}'>{{ rest.category }}</a></p>
-		<p>
-		<ul>
-			{% for it in rest.item_set.all %}
-				<li style='margin-bottom: 15px;'>{{ it.name }}</br>
-					{% for ing in it.get_contents %}
-						<a href='{{ request.path }}?q={{ ing }}'>{{ ing }}</a>
+		<div class="card" style="width: 20rem;">
+			<div class="card-body">
+    			<h4 class="card-title">{{ rest.name }}</h4>
+    			<h6 class="card-subtitle mb-2 text-muted"><a href='{{ request.path }}?q={{ rest.location }}'>{{ rest.location }}</a> | <a href='{{ request.path }}?q={{ rest.category }}'>{{ rest.category }}</a></h6>
+    			<p class="card-text">		
+					<ul>
+					{% for it in rest.item_set.all %}
+						<li style='margin-bottom: 15px;'>{{ it.name }}</br>
+						{% for ing in it.get_contents %}
+							<a href='{{ request.path }}?q={{ ing }}'>{{ ing }}</a>
+						{% endfor %}
+						</li>
 					{% endfor %}
-				</li>
-			{% endfor %}
-		</ul>
-		</p>
+					</ul>
+   				</p>
+			</div>
+		</div>
 	</div>
-	</div>
-	</div>
+</div>
 {% endfor %}
 </ul>
 {% else %}

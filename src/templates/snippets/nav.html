@@ -1,10 +1,38 @@
-<div class='container'>
-<h1>MuyPicky.com</h1>
-<a href="{% url 'home' %}">Home</a>
-<a href="{% url 'about' %}">About</a>
-<a href="{% url 'contact' %}">Contact</a>
-{% if request.user.is_authenticated %}
-<a href="{% url 'restaurants:list' %}">Restaurants</a>
-<a href="{% url 'menus:list' %}">Menus Items</a>
-{% endif %}
-</div>
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <a class="navbar-brand" href="{% url 'home' %}">MyPicky.com</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNav">
+    <ul class="navbar-nav">
+      <li class="nav-item active">
+        <a class="nav-link" href="{% url 'home' %}">Home <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="{% url 'profiles:random' %}">Random User</a>
+      </li>
+	{% if request.user.is_authenticated %}
+      <li class="nav-item">
+        <a class="nav-link" href="{% url 'restaurants:list' %}">Restaurants</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="{% url 'menus:list' %}">Menus Items</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="{% url 'logout' %}">Logout</a>
+      </li>
+      {% else %} 
+      <li class="nav-item">
+        <a class="nav-link" href="{% url 'register' %}">Register</a>
+      </li>     
+      <li class="nav-item">
+        <a class="nav-link" href="{% url 'login' %}">Login</a>
+      </li>
+      {% endif %} 
+    </ul>
+  </div>
+  <form class="form-inline" method='GET' action='.'>
+    <input class="form-control mr-sm-2" placeholder="Search" aria-label="Search" type='text' name='q' value="{{ request.GET.q }}">
+    <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+  </form>
+ </nav>

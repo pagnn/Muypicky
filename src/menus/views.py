@@ -5,7 +5,7 @@ from django.views.generic import View,ListView,DetailView,CreateView,UpdateView
 from .models import Item
 from .forms import ItemForm
 
-class HomeView(View):
+class HomeView(View):	
 	def get(self,request,*args,**kwargs):
 		if not request.user.is_authenticated():
 			return render(request,'home.html',{})

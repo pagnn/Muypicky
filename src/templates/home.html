@@ -1,16 +1,13 @@
 {% extends "base.html" %}
 {% block head_title %}Welcome || {{ block.super}}{% endblock head_title%}
 {% block content %}
-<h1>Hello World</h1>
-<p>This is coming through.</p>
-<p>
-{% if bool_item %}
-	Random Number is：{{ num }}
-{% endif %}
-</p>
-<p>
-{%for some_item in some_list %}
-	{{some_item}}<br>
-{% endfor %}
-</p>
+<div class="jumbotron">
+  <h1 class="display-3">My Picky!</h1>
+  <p class="lead">Share your pickiness with your friends. Add the restaurants add menu items like most so they get it right every time.</p>
+  <p class="lead">
+    <a class="btn btn-primary btn-lg" href="{% url 'register' %}" role="button">Join us</a>
+  </p>
+</div>
+
+
 {% endblock content %}
