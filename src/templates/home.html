@@ -8,6 +8,12 @@
     <a class="btn btn-primary btn-lg" href="{% url 'register' %}" role="button">Join us</a>
   </p>
 </div>
+{% if request.user.is_authenticated %}
+	<h1>What I am Following</h1>
+{% else %}
+	<h1>Recent Items</h1>
+{% endif %}
 
+{% include 'menus/home-feed.html' %}
 
 {% endblock content %}

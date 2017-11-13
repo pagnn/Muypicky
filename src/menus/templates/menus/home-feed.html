@@ -1,20 +1,16 @@
-{% extends "base.html" %}
-{% block head_title %}Welcome || {{ block.super}}{% endblock head_title%}
-{% block content %}
-<h1>What I am Following</h1>
 {% for obj in object_list %}
 <div class='row'>
 	<div class='col-sm-6 text-center col-sm-offset-3'>
 		<div class="card" style="width: 20rem;">
   			<div class="card-body">
-    			<h4 class="card-title"><a href='{% url "profiles:detail" username=obj.user.username %}'>{{ obj.user.username }}</a></h4>
+    			<h4 class="card-title">{% if request.user.is_authenticated %}<a href='{% url "profiles:detail" username=obj.user.username %}'>{{ obj.user.username }}</a>{% else %}{{ obj.user.username }}{% endif %}</h4>
     			<h6 class="card-subtitle mb-2 text-muted">{{ obj.name }}</h6>
     			<p class="card-text">{{ obj.restaurant.title }} | {{ obj.restaurant.location}} | {{ obj.restaurant.category }}</p>
 				<p>
 					<ul>
 						<li>
 						{% for ing in obj.get_contents %}
-							<a href='{% url "profiles:detail" username=obj.user.username %}'>{{ ing }}</a>
+							<span>{% if request.user.is_authenticated %}<a href='{% url "profiles:detail" username=obj.user.username %}'>{{ ing }}</a>{% else %}{{ ing }}{% endif %}</span>
 						{% endfor %}
 						</li>
 					</ul>
@@ -23,6 +19,4 @@
 		</div>
 	</div>
 </div>
-
 {% endfor %}
-{% endblock content %}

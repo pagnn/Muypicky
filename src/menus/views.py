@@ -8,11 +8,13 @@ from .forms import ItemForm
 class HomeView(View):	
 	def get(self,request,*args,**kwargs):
 		if not request.user.is_authenticated():
-			return render(request,'home.html',{})
+			object_list=Item.objects.filter(public=True).order_by("-updated")
+			print (object_list)
+			return render(request,'home.html',{'object_list':object_list})
 		user=request.user
 		is_following_user_ids=[x.user.id for x in user.is_following.all()]
 		object_list=Item.objects.filter(user__id__in=is_following_user_ids,public=True).order_by("-updated")
-		return render(request,'menus/home-feed.html',{'object_list':object_list})
+		return render(request,'home.html',{'object_list':object_list})
 
 # Create your views here.
 class ItemListView(LoginRequiredMixin,ListView):
