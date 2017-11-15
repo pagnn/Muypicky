@@ -1,15 +1,33 @@
-{% extends "base.html" %}
-
+{% extends 'base.html' %}
+{% block head_title %}Register | {{ block.super }}{% endblock head_title %}
 {% block content %}
-<div class='row'>
-<div class='col-sm-6 col-sm-offset-3 text-center'>
-    <h1>Register</h1>  
-        <form class='form-horizontal' mehtod='POST' action="{% url 'register' %}">{% csrf_token %}
-        {{ form.as_p }}
-        <input type="submit" value="register" />
-        <input type="hidden" name="next" value="/" />
-    </form>
-    <p>Do you need to <a href="{% url 'login' %}">Login</a>?</p>
+<div class='container'>
+	<div class='row text-center vertical-middle-sm'>
+		<div class='col-md-4 col-offset-md-4'>
+		<h1>Register</h1>
+		<p>If you've already had an account,you can <a href="{% url 'login' %}"><strong>Log in</strong></a>.</p>
+		<p>Otherwise,please <strong>Register</strong> first.</p>
+		
+		<form class='from-horizontal' action="{% url 'login' %}" method='POST' >{% csrf_token %}
+				<div class='form-group'>
+					<label for="{{ form.username.id_for_label }}" class='col-md-5 control-label'><span class='glyphicon glyphicon-user'></span>Username</label>
+					<div class='col-md-6 text-left'>{{ form.username }}</div>
+				</div>
+				<div class='form-group'>
+					<label for="{{ form.email.id_for_label }}" class='col-md-5 control-label'>Email</label>
+					<div class='col-md-6 text-left'>{{ form.email }}</div>
+				</div>
+				<div class='form-group'>
+					<label for="{{ form.password.id_for_label }}" class='col-md-5 control-label'>Password</label>
+					<div class='col-md-6 text-left'>{{ form.password }}</div>
+				</div>
+				<div class='form-group'>
+					<label for="{{ form.password2.id_for_label }}" class='col-md-5 control-label'>Confirm Password</label>
+					<div class='col-md-6 text-left'>{{ form.password2 }}</div>
+				</div>				
+				<input type="submit" name="register" class='btn btn-primary' value='REGISTER' />
+			</form>
+		</div>
+	</div>
 </div>
-</div>
-{% endblock %}
+{% endblock content %}

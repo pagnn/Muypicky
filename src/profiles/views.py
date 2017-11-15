@@ -1,7 +1,7 @@
 from django.contrib.auth import get_user_model
 from django.contrib.auth.mixins import LoginRequiredMixin
 from django.contrib.messages.views import SuccessMessageMixin
-from django.http import Http404
+from django.http import Http404,HttpResponse
 from django.shortcuts import render,get_object_or_404,redirect
 from django.views.generic import View,DetailView,CreateView
 # Create your views here.
@@ -36,7 +36,7 @@ def activate_user_view(request, code=None, *args, **kwargs):
 # 		return super(RegisterView,self).dispatch(*args,**kwargs)
 def register(request):
 	if request.method == 'POST':
-		user_form = RegisterForm
+		user_form = RegisterForm(request.POST)
 		if user_form.is_valid():
 			new_user=user_form.save(commit=False)
 			new_user.set_password(user_form.cleaned_data['password'])
@@ -47,6 +47,7 @@ def register(request):
 	else:
 		user_form = RegisterForm()
 		return render(request,'registration/register.html',{'form':user_form})
+
 class ProfileFollowToggle(LoginRequiredMixin,View):
 	def post(self,request,*args,**kwargs):
 		username_to_toggle=request.POST.get('username')
