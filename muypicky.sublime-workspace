@@ -519,33 +519,6 @@
 	},
 	"buffers":
 	[
-		{
-			"file": "src/profiles/forms.py",
-			"settings":
-			{
-				"buffer_size": 2144,
-				"encoding": "UTF-8",
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "src/profiles/views.py",
-			"settings":
-			{
-				"buffer_size": 3870,
-				"encoding": "UTF-8",
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "src/muypicky/urls.py",
-			"settings":
-			{
-				"buffer_size": 1914,
-				"encoding": "UTF-8",
-				"line_ending": "Windows"
-			}
-		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -603,7 +576,6 @@
 		"/C/Dev/trydjango1-11",
 		"/C/Dev/trydjango1-11/src",
 		"/C/Dev/trydjango1-11/src/muypicky",
-		"/C/Dev/trydjango1-11/src/muypicky/settings",
 		"/C/Dev/trydjango1-11/src/profiles",
 		"/C/Dev/trydjango1-11/src/profiles/templates",
 		"/C/Dev/trydjango1-11/src/profiles/templates/profiles",
@@ -613,9 +585,13 @@
 	],
 	"file_history":
 	[
+		"/C/Dev/trydjango1-11/src/profiles/forms.py",
+		"/C/Dev/trydjango1-11/src/profiles/views.py",
+		"/C/Dev/trydjango1-11/src/muypicky/urls.py",
+		"/C/Dev/trydjango1-11/src/muypicky/settings/local.py",
+		"/C/Dev/trydjango1-11/src/muypicky/settings/__base__.py",
 		"/C/Dev/trydjango1-11/src/templates/registration/register.html",
 		"/C/Dev/trydjango1-11/src/menus/views.py",
-		"/C/Dev/trydjango1-11/src/profiles/views.py",
 		"/C/Dev/trydjango1-11/src/templates/registration/login.html",
 		"/C/Dev/trydjango1-11/src/templates/snippets/css.html",
 		"/C/Dev/trydjango1-11/src/templates/snippets/js.html",
@@ -623,13 +599,10 @@
 		"/C/Dev/trydjango1-11/src/templates/home.html",
 		"/C/Dev/trydjango1-11/src/templates/registration/password_reset_form.html",
 		"/C/Dev/trydjango1-11/src/templates/snippets/nav.html",
-		"/C/Dev/trydjango1-11/src/muypicky/urls.py",
 		"/C/Dev/trydjango1-11/src/profiles/urls.py",
 		"/C/Dev/trydjango1-11/src/profiles/templates/profiles/user.html",
 		"/C/Dev/trydjango1-11/src/profiles/models.py",
 		"/C/Dev/trydjango1-11/src/templates/base.html",
-		"/C/Dev/trydjango1-11/src/profiles/forms.py",
-		"/C/Dev/trydjango1-11/src/muypicky/settings/__base__.py",
 		"/C/Dev/trydjango1-11/src/profiles/utils.py",
 		"/C/Dev/trydjango1-11/src/profiles/templates/profiles/register.html",
 		"/C/Dev/trydjango1-11/src/profiles/templates/profiles/snippets/follow_snippet.html",
@@ -661,7 +634,6 @@
 		"/C/Dev/trydjango1-11/src/templates/about.html",
 		"/C/Dev/trydjango1-11/src/templates/snippets/sidebar.html",
 		"/C/Dev/trydjango1-11/src/muypicky/wsgi.py",
-		"/C/Dev/trydjango1-11/src/muypicky/settings/local.py",
 		"/C/Dev/trydjango1-11/src/muypicky/settings/production.py",
 		"/C/Dev/trydjango1-11/src/manage.py",
 		"/C/Dev/trydjango1-11/src/muypicky/settings/__init__.py",
@@ -744,7 +716,7 @@
 	],
 	"find":
 	{
-		"height": 53.0
+		"height": 55.0
 	},
 	"find_in_files":
 	{
@@ -781,103 +753,14 @@
 	"groups":
 	[
 		{
-			"selected": 2,
 			"sheets":
 			[
-				{
-					"buffer": 0,
-					"file": "src/profiles/forms.py",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 2144,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1512,
-								1512
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Python/Python.sublime-syntax",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 1845.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 2,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "src/profiles/views.py",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 3870,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								396,
-								396
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Python/Python.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 1353.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "src/muypicky/urls.py",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1914,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Python/Python.sublime-syntax",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 738.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				}
 			]
 		}
 	],
 	"incremental_find":
 	{
-		"height": 53.0
+		"height": 55.0
 	},
 	"input":
 	{
@@ -918,7 +801,7 @@
 	"project": "muypicky.sublime-project",
 	"replace":
 	{
-		"height": 100.0
+		"height": 104.0
 	},
 	"save_all_on_build": true,
 	"select_file":
